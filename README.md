@@ -1,7 +1,7 @@
 
 # FRAMES Nest backend
 
-This is for backend of FRAMES deployed on render.com
+This is for backend of FRAMES deployed on render
 
 
 ## Tech used
