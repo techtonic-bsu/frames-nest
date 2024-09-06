@@ -6,7 +6,7 @@ This is for backend of FRAMES deployed on render
 
 ## Tech used
 
-**Server:** PostgreSQL, Neon for deployment
+**Server:** PostgreSQL(Neon), NestJS
 
 ## Quick Start
 
@@ -31,6 +31,14 @@ For prod: `API_URL: https://frames-nest.onrender.com/api/v1`
 #### Register an account with encodings
 
 ```http
-  POST /api/v1/signup
+  POST /api/v1/user
 ```
-Make sure to include api key on header for authorization.
+### Checklist:
+- API key on header
+- Request body (case sensitive) - firstName, middleName, lastName, srCode, department, program
+
+
+
+## Error Codes
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
